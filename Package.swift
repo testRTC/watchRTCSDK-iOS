@@ -12,7 +12,7 @@ let package = Package(
             targets: ["WatchRTC-SDK-iOS-Target"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream.git", branch: "master"),
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "4.0.0"),
     ],
     targets: [
