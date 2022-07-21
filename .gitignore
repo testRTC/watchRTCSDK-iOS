@@ -11,8 +11,14 @@
 project.xcworkspace/
 xcuserdata/
 
+# Build products
+*.xcarchive/
+
 # Podfiles
 Pods/
 
 # SPM
 Package.resolved
+/.build
+/Packages
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata

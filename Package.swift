@@ -27,6 +27,6 @@ let package = Package(
                 .product(name: "SwiftyJSON", package: "SwiftyJSON")]),
         .binaryTarget(
             name: "WatchRTC-SDK-iOS",
-            path: "Build/WatchRTC-SDK-iOS.xcframework")
+            path: "WatchRTC-SDK-iOS.xcframework")
     ]
 )
