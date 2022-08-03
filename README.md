@@ -21,8 +21,6 @@ The SDK is geared towards those who want to collect WebRTC related data from an 
 5. The watchRTCSDK-iOS library is now added to your project.
 It automatically appears in the left pane under “Package Dependencies”:\
     <img src="Documentation/images/image3.png" width="400">\
-as well as inside the “Link Binary With Libraries” under the “Build Phases” in the project’s target:\
-    <img src="Documentation/images/image4.png" width="500">
 
 ## Usage
 ### Import the framework
