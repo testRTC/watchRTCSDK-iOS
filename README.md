@@ -59,3 +59,6 @@ watchRTC.connect()
 
 ## Detailed API documentation
 For the detailed API documentation [WatchRTC-iOS-SDK.doccarchive](Documentation/API&#32;Documentation/WatchRTC-iOS-SDK.doccarchive) (Can be opened with XCode)
+
+## Sample app
+For more details on how to use the SDK, see the [Sample app](https://github.com/testRTC/watchRTCSDK-iOS-SampleApp)
