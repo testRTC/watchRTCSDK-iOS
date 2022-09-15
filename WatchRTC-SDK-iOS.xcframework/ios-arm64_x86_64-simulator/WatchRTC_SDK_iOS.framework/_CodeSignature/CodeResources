@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1tRWWfK6myiQw/c4XT/dBdQid/Y=
+		7cv62p1hyV+4zO7kvFMSulU0KPo=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O2dkw2LJer8MEsXK2ODD9IQu3Ls=
+		UH+37ZsU8dltDxO3cmZ19eX6Ur0=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AtN6J7DvyLXmbN6xchsIRUaK3KA=
+		5JWmq11V2PUtCHXTSJY1tdubcOQ=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3VbDZ/kybeI064UAd7QfuVps3qs=
+		KiUXxOQi5FkCyz0+2Ir7fwafuiU=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o3xDdSSTl8uaue5bC+I6Tac6ZaI=
+		1OPgJGVN9why/zMhwG8npDostLE=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ToHKINETZ28Ij8FKQoBgxoAZTpk=
+		9BTvRU00Zxyv3syDOAKxVOPVSl8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQ68JNeNxXCFScG3Zg5L+JAY+p+5Knill8nUjCGkzuA=
+			4hKQ15+6ar5hEBXNn8+8tOIMw8LnqqOvRy2d4zdXvQk=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oGiX/mFeMLAb95v9yloG3q8ai2c7E5emrfStd32hZ5Y=
+			T2R44keuHVUayUg/lVm8Cilvnm29KcOXJE1hCllxMmY=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			75mCIP0jAlv+AJH2yIdETs78WxUFN3w4anD2Th5oTi0=
+			JH6MulYXYdRSsomUZ3h6B1xxi3BSvF3SM2h5zpRwPgM=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ps8exoeHIVITM2liS8gOm+ohx2ax4zzOXXlyHkUGnc8=
+			vYS+SvAYI3HzdzGzUcwSTRv7wQkCWQw42KETdAr7euw=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fii3B6bKZer0gePHLLA48SrnlAG7neyw/D2T+NpHcw=
+			q4OT58HGb0bHenJMPgRgTJEEh0NWjz8tuBer8qmg7Zg=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lr4oVZ4ZFatwnqeME37vtvg/46E+33RCGCA68fU89mQ=
+			KjNFuE1H9nb7yZfkAlwMvZwLJQNxCrBWAP8pMWgigSc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Ow5LnRRMuHZ0ApMFcgKGhwprlL0=
+		MOPjng3AGOR8Ymyei3wYCmsRL+Q=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		i/KHpXhSNX50GhIDwiPiMvp6bgo=
+		uNmj6JNMyC0tuJ1A/ob2Hi5VEOE=
 		</data>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Rsg6niF0FanNbc4q9EII/zEiAIo=
+		rZKzh6ytAwkIP2XxK8LTnn91IkI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,21 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xkZheMkWMNUGbvv2fqgF/ejPsc6xR9jUMop9kgpzR7s=
+			AdRNJYWLtM3HEJ5ONZJcDfuq3OAGie7luypDV3sEGsM=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+Gk1j0kxZviYduDMa7TfB9CVREa+V1mbBlHbmep6f4=
+			wGIZ0BrwZV9p+riFX78NZQ9+/0gJgAUwYuLnDe4386Y=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHJxMl0RXknN44TLwZXPQaC+32f57zu94r+RSQIXSSc=
+			cgnNR0GUqJ+q4Z4hbkBngfXpwIKUixflptQJUvvtqwk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
