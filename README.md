@@ -2,9 +2,9 @@
   <img height="160" src="https://avatars.githubusercontent.com/u/16746133?s=200&v=4" />
 </p>
 
-# watchRTCSDK-iOS
+# WatchRTC_SDK
 
-This repository contains the watchRTC iOS SDK binaries.
+This repository contains the WatchRTC_SDK iOS binaries.
 
 The SDK is geared towards those who want to collect WebRTC related data from an iOS app, log and analyze it as part of the testRTC environment.
 
@@ -19,15 +19,15 @@ The SDK is geared towards those who want to collect WebRTC related data from an 
 3. Set the “Dependency Rule” to `Up to Next Major` and specify the version you need:\
     <img src="Documentation/images/image2.png" width="500">
 4. Click “Add Package”, wait for the installation to finish and click “Add Package” again.
-5. The WatchRTC library is now added to your project.
+5. The WatchRTC_SDK library is now added to your project.
 It automatically appears in the left pane under “Package Dependencies”:\
     <img src="Documentation/images/image3.png" width="400">\
 
 ### CocoaPods
 Check out Get Started tab on cocoapods.org.
-To use WatchRTC in your project add the following line to your 'Podfile':
+To use WatchRTC_SDK in your project add the following line to your 'Podfile':
 ```ruby
-pod 'WatchRTC'
+pod 'WatchRTC_SDK'
 ```
 Then, in Terminal, run:
 ```sh
@@ -35,7 +35,7 @@ pod install
 ```
 In order to update the SDK to the newest version, in Terminal, run:
 ```sh
-pod update WatchRTC
+pod update WatchRTC_SDK
 ```
 
 
@@ -43,7 +43,7 @@ pod update WatchRTC
 ## Usage
 ### Import the framework
 ```swift
-import WatchRTC
+import WatchRTC_SDK
 ```
 ### Implement the `RtcDataProvider` protocol
 ```swift
@@ -76,7 +76,7 @@ watchRTC.connect()
 ```
 
 ## Detailed API documentation
-For the detailed API documentation [WatchRTC.doccarchive](Documentation/API&#32;Documentation/WatchRTC.doccarchive) (Can be opened with XCode)
+For the detailed API documentation [WatchRTC_SDK.doccarchive](Documentation/API&#32;Documentation/WatchRTC_SDK.doccarchive) (Can be opened with XCode)
 
 ## Sample apps
 For more details on how to use the SDK, see the 

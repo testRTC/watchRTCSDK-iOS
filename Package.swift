@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "WatchRTC",
+    name: "WatchRTC_SDK",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "WatchRTC",
-            targets: ["WatchRTC-Target"]),
+            name: "WatchRTC_SDK",
+            targets: ["WatchRTC_SDK-Target"]),
     ],
     dependencies: [
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
@@ -17,16 +17,16 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "WatchRTC-Target",
-            dependencies: [.target(name: "WatchRTC-Wrapper", condition: .when(platforms: [.iOS]))]),
+            name: "WatchRTC_SDK-Target",
+            dependencies: [.target(name: "WatchRTC_SDK-Wrapper", condition: .when(platforms: [.iOS]))]),
         .target(
-            name: "WatchRTC-Wrapper",
+            name: "WatchRTC_SDK-Wrapper",
             dependencies: [
-                .target(name: "WatchRTC", condition: .when(platforms: [.iOS])),
+                .target(name: "WatchRTC_SDK", condition: .when(platforms: [.iOS])),
                 .product(name: "Starscream", package: "Starscream"),
                 .product(name: "SwiftyJSON", package: "SwiftyJSON")]),
         .binaryTarget(
-            name: "WatchRTC",
-            path: "WatchRTC.xcframework")
+            name: "WatchRTC_SDK",
+            path: "WatchRTC_SDK.xcframework")
     ]
 )
