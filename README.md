@@ -24,7 +24,7 @@ It automatically appears in the left pane under “Package Dependencies”:\
     <img src="Documentation/images/image3.png" width="400">\
 
 ### CocoaPods
-Check out Get Started tab on cocoapods.org.
+Check out [Get Started](http://cocoapods.org/) tab on [cocoapods.org](http://cocoapods.org/).
 To use WatchRTC_SDK in your project add the following line to your 'Podfile':
 ```ruby
 pod 'WatchRTC_SDK'
