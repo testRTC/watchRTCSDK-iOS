@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WatchRTC
+import Foundation
+import Starscream
+import Swift
+import SwiftyJSON
+import UIKit
+@_exported import WatchRTC
+import _Concurrency
+import os.log
+import os
+public enum EventType : Swift.String {
+  case log, local, global
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LogLevel : Swift.String {
+  case log, debug, info, warn, error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol DebugLoggerProtocol {
+  func debug(_ message: Swift.String)
+  func info(_ message: Swift.String)
+  func error(_ message: Swift.String)
+}
+public protocol RtcDataProvider {
+  func getStats(callback: @escaping (WatchRTC.RTCStatsReport) -> Swift.Void)
+}
+public class WatchRTCConfig {
+  public init(rtcApiKey: Swift.String, rtcRoomId: Swift.String, keys: [Swift.String : [Swift.String]]?, proxyUrl: Swift.String? = nil)
+  @objc deinit
+}
+public struct WatchRTCSessionDescription {
+  public init(type: Swift.String, sdp: Swift.String)
+}
+@available(iOS 13.0.0, *)
+public class WatchRTC {
+  public init(config: WatchRTC.WatchRTCConfig? = nil, dataProvider: WatchRTC.RtcDataProvider)
+  public func connect(config: WatchRTC.WatchRTCConfig? = nil) throws
+  public func addKeys(keys: [Swift.String : [Swift.String]])
+  public func setConfig(config: WatchRTC.WatchRTCConfig)
+  public func setLogger(debugLogger: WatchRTC.DebugLoggerProtocol?)
+  public func disconnect()
+  public func log(logLevel: WatchRTC.LogLevel, text: Swift.String)
+  public func addEvent(name: Swift.String, type: WatchRTC.EventType, parameters: Swift.Encodable? = nil)
+  public func setUserRating(rating: Swift.Int, ratingComment: Swift.String = "")
+  public func trace(eventName: Swift.String, data: Swift.Encodable?)
+  public func sendSetRemoteDescription(sdp: WatchRTC.WatchRTCSessionDescription)
+  public func sendSetLocalDescription(sdp: WatchRTC.WatchRTCSessionDescription)
+  public func sendSignalingStateMessage(state: Swift.String)
+  public func sendOnConnectionStateChange(state: Swift.String)
+  public func sendOnIceConnectionStateChange(state: Swift.String)
+  public func sendOnIceGatheringStateChange(state: Swift.String)
+  @objc deinit
+}
+@available(iOS 13.0.0, *)
+extension WatchRTC.WatchRTC : Starscream.WebSocketDelegate {
+  public func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocketClient)
+}
+public struct RTCStat {
+  public init(timestamp: Swift.Int64, properties: [Swift.String : Any])
+}
+public class RTCStatsReport {
+  public init(report: [Swift.String : WatchRTC.RTCStat], timestamp: Swift.Int64)
+  @objc deinit
+}
+extension WatchRTC.EventType : Swift.Equatable {}
+extension WatchRTC.EventType : Swift.Hashable {}
+extension WatchRTC.EventType : Swift.RawRepresentable {}
+extension WatchRTC.LogLevel : Swift.Equatable {}
+extension WatchRTC.LogLevel : Swift.Hashable {}
+extension WatchRTC.LogLevel : Swift.RawRepresentable {}

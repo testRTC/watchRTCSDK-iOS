@@ -1,0 +1,11 @@
+framework module WatchRTC {
+  umbrella header "WatchRTC.h"
+
+  export *
+  module * { export * }
+}
+
+module WatchRTC.Swift {
+    header "WatchRTC-Swift.h"
+    requires objc
+}
