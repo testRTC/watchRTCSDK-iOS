@@ -12,7 +12,6 @@ let package = Package(
             targets: ["WatchRTC_SDK-Target"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "4.0.0"),
     ],
     targets: [
@@ -23,7 +22,6 @@ let package = Package(
             name: "WatchRTC_SDK-Wrapper",
             dependencies: [
                 .target(name: "WatchRTC_SDK", condition: .when(platforms: [.iOS])),
-                .product(name: "Starscream", package: "Starscream"),
                 .product(name: "SwiftyJSON", package: "SwiftyJSON")]),
         .binaryTarget(
             name: "WatchRTC_SDK",
