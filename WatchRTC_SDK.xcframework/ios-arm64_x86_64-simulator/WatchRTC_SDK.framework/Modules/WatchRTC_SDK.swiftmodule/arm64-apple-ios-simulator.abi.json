@@ -1,0 +1,1992 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventType",
+        "printedName": "EventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.EventType.Type) -> WatchRTC_SDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "WatchRTC_SDK.EventType",
+                    "usr": "s:12WatchRTC_SDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "WatchRTC_SDK.EventType",
+                        "usr": "s:12WatchRTC_SDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK9EventTypeO3logyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK9EventTypeO3logyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "local",
+            "printedName": "local",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.EventType.Type) -> WatchRTC_SDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "WatchRTC_SDK.EventType",
+                    "usr": "s:12WatchRTC_SDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "WatchRTC_SDK.EventType",
+                        "usr": "s:12WatchRTC_SDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK9EventTypeO5localyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK9EventTypeO5localyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "global",
+            "printedName": "global",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.EventType.Type) -> WatchRTC_SDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "WatchRTC_SDK.EventType",
+                    "usr": "s:12WatchRTC_SDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "WatchRTC_SDK.EventType",
+                        "usr": "s:12WatchRTC_SDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK9EventTypeO6globalyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK9EventTypeO6globalyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WatchRTC_SDK.EventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "WatchRTC_SDK.EventType",
+                    "usr": "s:12WatchRTC_SDK9EventTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK9EventTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12WatchRTC_SDK9EventTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "WatchRTC_SDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12WatchRTC_SDK9EventTypeO8rawValueSSvp",
+            "mangledName": "$s12WatchRTC_SDK9EventTypeO8rawValueSSvp",
+            "moduleName": "WatchRTC_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WatchRTC_SDK9EventTypeO8rawValueSSvg",
+                "mangledName": "$s12WatchRTC_SDK9EventTypeO8rawValueSSvg",
+                "moduleName": "WatchRTC_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12WatchRTC_SDK9EventTypeO",
+        "mangledName": "$s12WatchRTC_SDK9EventTypeO",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.LogLevel.Type) -> WatchRTC_SDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "WatchRTC_SDK.LogLevel",
+                        "usr": "s:12WatchRTC_SDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK8LogLevelO3logyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO3logyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.LogLevel.Type) -> WatchRTC_SDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "WatchRTC_SDK.LogLevel",
+                        "usr": "s:12WatchRTC_SDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK8LogLevelO5debugyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO5debugyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.LogLevel.Type) -> WatchRTC_SDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "WatchRTC_SDK.LogLevel",
+                        "usr": "s:12WatchRTC_SDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK8LogLevelO4infoyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO4infoyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.LogLevel.Type) -> WatchRTC_SDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "WatchRTC_SDK.LogLevel",
+                        "usr": "s:12WatchRTC_SDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK8LogLevelO4warnyA2CmF",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO4warnyA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.LogLevel.Type) -> WatchRTC_SDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WatchRTC_SDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "WatchRTC_SDK.LogLevel",
+                        "usr": "s:12WatchRTC_SDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12WatchRTC_SDK8LogLevelO5erroryA2CmF",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO5erroryA2CmF",
+            "moduleName": "WatchRTC_SDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WatchRTC_SDK.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "WatchRTC_SDK.LogLevel",
+                    "usr": "s:12WatchRTC_SDK8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK8LogLevelO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO8rawValueACSgSS_tcfc",
+            "moduleName": "WatchRTC_SDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12WatchRTC_SDK8LogLevelO8rawValueSSvp",
+            "mangledName": "$s12WatchRTC_SDK8LogLevelO8rawValueSSvp",
+            "moduleName": "WatchRTC_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WatchRTC_SDK8LogLevelO8rawValueSSvg",
+                "mangledName": "$s12WatchRTC_SDK8LogLevelO8rawValueSSvg",
+                "moduleName": "WatchRTC_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12WatchRTC_SDK8LogLevelO",
+        "mangledName": "$s12WatchRTC_SDK8LogLevelO",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DebugLoggerProtocol",
+        "printedName": "DebugLoggerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK19DebugLoggerProtocolP5debugyySSF",
+            "mangledName": "$s12WatchRTC_SDK19DebugLoggerProtocolP5debugyySSF",
+            "moduleName": "WatchRTC_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : WatchRTC_SDK.DebugLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : WatchRTC_SDK.DebugLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK19DebugLoggerProtocolP4infoyySSF",
+            "mangledName": "$s12WatchRTC_SDK19DebugLoggerProtocolP4infoyySSF",
+            "moduleName": "WatchRTC_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : WatchRTC_SDK.DebugLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : WatchRTC_SDK.DebugLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK19DebugLoggerProtocolP5erroryySSF",
+            "mangledName": "$s12WatchRTC_SDK19DebugLoggerProtocolP5erroryySSF",
+            "moduleName": "WatchRTC_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : WatchRTC_SDK.DebugLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : WatchRTC_SDK.DebugLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12WatchRTC_SDK19DebugLoggerProtocolP",
+        "mangledName": "$s12WatchRTC_SDK19DebugLoggerProtocolP",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RtcDataProvider",
+        "printedName": "RtcDataProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getStats",
+            "printedName": "getStats(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WatchRTC_SDK.RTCStatsReport) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RTCStatsReport",
+                    "printedName": "WatchRTC_SDK.RTCStatsReport",
+                    "usr": "s:12WatchRTC_SDK14RTCStatsReportC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK15RtcDataProviderP8getStats8callbackyyAA14RTCStatsReportCc_tF",
+            "mangledName": "$s12WatchRTC_SDK15RtcDataProviderP8getStats8callbackyyAA14RTCStatsReportCc_tF",
+            "moduleName": "WatchRTC_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : WatchRTC_SDK.RtcDataProvider>",
+            "sugared_genericSig": "<Self where Self : WatchRTC_SDK.RtcDataProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12WatchRTC_SDK15RtcDataProviderP",
+        "mangledName": "$s12WatchRTC_SDK15RtcDataProviderP",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WatchRTCConfig",
+        "printedName": "WatchRTCConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rtcApiKey:rtcRoomId:keys:proxyUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTCConfig",
+                "printedName": "WatchRTC_SDK.WatchRTCConfig",
+                "usr": "s:12WatchRTC_SDK0A9RTCConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : [Swift.String]]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId4keys8proxyUrlACSS_SSSDySSSaySSGGSgSSSgtcfc",
+            "mangledName": "$s12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId4keys8proxyUrlACSS_SSSDySSSaySSGGSgSSSgtcfc",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12WatchRTC_SDK0A9RTCConfigC",
+        "mangledName": "$s12WatchRTC_SDK0A9RTCConfigC",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WatchRTCSessionDescription",
+        "printedName": "WatchRTCSessionDescription",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:sdp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTCSessionDescription",
+                "printedName": "WatchRTC_SDK.WatchRTCSessionDescription",
+                "usr": "s:12WatchRTC_SDK0A21RTCSessionDescriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK0A21RTCSessionDescriptionV4type3sdpACSS_SStcfc",
+            "mangledName": "$s12WatchRTC_SDK0A21RTCSessionDescriptionV4type3sdpACSS_SStcfc",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12WatchRTC_SDK0A21RTCSessionDescriptionV",
+        "mangledName": "$s12WatchRTC_SDK0A21RTCSessionDescriptionV",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WatchRTC",
+        "printedName": "WatchRTC",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:dataProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTC",
+                "printedName": "WatchRTC_SDK.WatchRTC",
+                "usr": "s:12WatchRTC_SDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WatchRTC_SDK.WatchRTCConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WatchRTCConfig",
+                    "printedName": "WatchRTC_SDK.WatchRTCConfig",
+                    "usr": "s:12WatchRTC_SDK0A9RTCConfigC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RtcDataProvider",
+                "printedName": "WatchRTC_SDK.RtcDataProvider",
+                "usr": "s:12WatchRTC_SDK15RtcDataProviderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK0aB0C6config12dataProviderAcA0A9RTCConfigCSg_AA07RtcDataF0_ptcfc",
+            "mangledName": "$s12WatchRTC_SDK0aB0C6config12dataProviderAcA0A9RTCConfigCSg_AA07RtcDataF0_ptcfc",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WatchRTC_SDK.WatchRTCConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WatchRTCConfig",
+                    "printedName": "WatchRTC_SDK.WatchRTCConfig",
+                    "usr": "s:12WatchRTC_SDK0A9RTCConfigC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C7connect6configyAA0A9RTCConfigCSg_tKF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C7connect6configyAA0A9RTCConfigCSg_tKF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addKeys",
+            "printedName": "addKeys(keys:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : [Swift.String]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C7addKeys4keysySDySSSaySSGG_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C7addKeys4keysySDySSSaySSGG_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConfig",
+            "printedName": "setConfig(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTCConfig",
+                "printedName": "WatchRTC_SDK.WatchRTCConfig",
+                "usr": "s:12WatchRTC_SDK0A9RTCConfigC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C9setConfig6configyAA0A9RTCConfigC_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C9setConfig6configyAA0A9RTCConfigC_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogger",
+            "printedName": "setLogger(debugLogger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WatchRTC_SDK.DebugLoggerProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DebugLoggerProtocol",
+                    "printedName": "WatchRTC_SDK.DebugLoggerProtocol",
+                    "usr": "s:12WatchRTC_SDK19DebugLoggerProtocolP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C9setLogger05debugE0yAA05DebugE8Protocol_pSg_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C9setLogger05debugE0yAA05DebugE8Protocol_pSg_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C10disconnectyyF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C10disconnectyyF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(logLevel:text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "WatchRTC_SDK.LogLevel",
+                "usr": "s:12WatchRTC_SDK8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C3log0D5Level4textyAA03LogE0O_SStF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C3log0D5Level4textyAA03LogE0O_SStF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addEvent",
+            "printedName": "addEvent(name:type:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "WatchRTC_SDK.EventType",
+                "usr": "s:12WatchRTC_SDK9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Encodable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C8addEvent4name4type10parametersySS_AA0E4TypeOSE_pSgtF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C8addEvent4name4type10parametersySS_AA0E4TypeOSE_pSgtF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserRating",
+            "printedName": "setUserRating(rating:ratingComment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C13setUserRating6rating0G7CommentySi_SStF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C13setUserRating6rating0G7CommentySi_SStF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trace",
+            "printedName": "trace(eventName:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Encodable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C5trace9eventName4dataySS_SE_pSgtF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C5trace9eventName4dataySS_SE_pSgtF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendSetRemoteDescription",
+            "printedName": "sendSetRemoteDescription(sdp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTCSessionDescription",
+                "printedName": "WatchRTC_SDK.WatchRTCSessionDescription",
+                "usr": "s:12WatchRTC_SDK0A21RTCSessionDescriptionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C24sendSetRemoteDescription3sdpyAA0a10RTCSessionG0V_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C24sendSetRemoteDescription3sdpyAA0a10RTCSessionG0V_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendSetLocalDescription",
+            "printedName": "sendSetLocalDescription(sdp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WatchRTCSessionDescription",
+                "printedName": "WatchRTC_SDK.WatchRTCSessionDescription",
+                "usr": "s:12WatchRTC_SDK0A21RTCSessionDescriptionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C23sendSetLocalDescription3sdpyAA0a10RTCSessionG0V_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C23sendSetLocalDescription3sdpyAA0a10RTCSessionG0V_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendSignalingStateMessage",
+            "printedName": "sendSignalingStateMessage(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C25sendSignalingStateMessage5stateySS_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C25sendSignalingStateMessage5stateySS_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendOnConnectionStateChange",
+            "printedName": "sendOnConnectionStateChange(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C27sendOnConnectionStateChange5stateySS_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C27sendOnConnectionStateChange5stateySS_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendOnIceConnectionStateChange",
+            "printedName": "sendOnIceConnectionStateChange(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C30sendOnIceConnectionStateChange5stateySS_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C30sendOnIceConnectionStateChange5stateySS_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendOnIceGatheringStateChange",
+            "printedName": "sendOnIceGatheringStateChange(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WatchRTC_SDK0aB0C29sendOnIceGatheringStateChange5stateySS_tF",
+            "mangledName": "$s12WatchRTC_SDK0aB0C29sendOnIceGatheringStateChange5stateySS_tF",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12WatchRTC_SDK0aB0C",
+        "mangledName": "$s12WatchRTC_SDK0aB0C",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RTCStat",
+        "printedName": "RTCStat",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RTCStat",
+                "printedName": "WatchRTC_SDK.RTCStat",
+                "usr": "s:12WatchRTC_SDK7RTCStatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK7RTCStatV9timestamp10propertiesACs5Int64V_SDySSypGtcfc",
+            "mangledName": "$s12WatchRTC_SDK7RTCStatV9timestamp10propertiesACs5Int64V_SDySSypGtcfc",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12WatchRTC_SDK7RTCStatV",
+        "mangledName": "$s12WatchRTC_SDK7RTCStatV",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RTCStatsReport",
+        "printedName": "RTCStatsReport",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(report:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RTCStatsReport",
+                "printedName": "WatchRTC_SDK.RTCStatsReport",
+                "usr": "s:12WatchRTC_SDK14RTCStatsReportC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : WatchRTC_SDK.RTCStat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RTCStat",
+                    "printedName": "WatchRTC_SDK.RTCStat",
+                    "usr": "s:12WatchRTC_SDK7RTCStatV"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12WatchRTC_SDK14RTCStatsReportC6report9timestampACSDySSAA7RTCStatVG_s5Int64Vtcfc",
+            "mangledName": "$s12WatchRTC_SDK14RTCStatsReportC6report9timestampACSDySSAA7RTCStatVG_s5Int64Vtcfc",
+            "moduleName": "WatchRTC_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12WatchRTC_SDK14RTCStatsReportC",
+        "mangledName": "$s12WatchRTC_SDK14RTCStatsReportC",
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/scheduler\/GetStatsScheduler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/scheduler\/GetStatsScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 46,
+      "value": "\"Buffered messages sent. Succeed - \""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 29,
+      "value": "\"Send buffer error: \""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 64,
+      "value": "\"Send buffer error: \""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 119,
+      "length": 49,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 135,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/compression\/LZString.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 67,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/=\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/compression\/LZString.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 67,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/compression\/LZString.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
+      "kind": "StringLiteral",
+      "offset": 5469,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 8,
+      "value": "\"apiKey\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 10,
+      "value": "\"getstats\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 10,
+      "value": "\"watchrtc\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 12,
+      "value": "\"userRating\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 8,
+      "value": "\"create\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 24,
+      "value": "\"onsignalingstatechange\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 28,
+      "value": "\"oniceconnectionstatechange\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 27,
+      "value": "\"onicegatheringstatechange\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 21,
+      "value": "\"setLocalDescription\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 22,
+      "value": "\"setRemoteDescription\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 25,
+      "value": "\"onconnectionstatechange\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 11,
+      "value": "\"projectId\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 13,
+      "value": "\"projectName\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 10,
+      "value": "\"interval\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1338,
+      "length": 14,
+      "value": "\"sendInterval\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 6,
+      "value": "\"PC_0\""
+    }
+  ]
+}
