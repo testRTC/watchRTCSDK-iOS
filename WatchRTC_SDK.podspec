@@ -15,6 +15,4 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "WatchRTC_SDK.xcframework"
 
-  s.dependency 'SwiftyJSON'
-
 end

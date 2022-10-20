@@ -9,20 +9,9 @@ let package = Package(
     products: [
         .library(
             name: "WatchRTC_SDK",
-            targets: ["WatchRTC_SDK-Target"]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "4.0.0"),
+            targets: ["WatchRTC_SDK"]),
     ],
     targets: [
-        .target(
-            name: "WatchRTC_SDK-Target",
-            dependencies: [.target(name: "WatchRTC_SDK-Wrapper", condition: .when(platforms: [.iOS]))]),
-        .target(
-            name: "WatchRTC_SDK-Wrapper",
-            dependencies: [
-                .target(name: "WatchRTC_SDK", condition: .when(platforms: [.iOS])),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON")]),
         .binaryTarget(
             name: "WatchRTC_SDK",
             path: "WatchRTC_SDK.xcframework")
