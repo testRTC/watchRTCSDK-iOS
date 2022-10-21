@@ -6,6 +6,6 @@ framework module WatchRTC_SDK {
 }
 
 module WatchRTC_SDK.Swift {
-    header "WatchRTC_SDK-Swift.h"
-    requires objc
+  header "WatchRTC_SDK-Swift.h"
+  requires objc
 }

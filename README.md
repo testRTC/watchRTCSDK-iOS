@@ -21,7 +21,7 @@ The SDK is geared towards those who want to collect WebRTC related data from an 
 4. Click “Add Package”, wait for the installation to finish and click “Add Package” again.
 5. The WatchRTC_SDK library is now added to your project.
 It automatically appears in the left pane under “Package Dependencies”:\
-    <img src="Documentation/images/image3.png" width="400">\
+    <img src="Documentation/images/image3.png" width="400">
 
 ### CocoaPods
 Check out [Get Started](http://cocoapods.org/) tab on [cocoapods.org](http://cocoapods.org/).
