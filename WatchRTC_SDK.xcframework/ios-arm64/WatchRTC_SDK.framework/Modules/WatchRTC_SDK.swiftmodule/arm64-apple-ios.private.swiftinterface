@@ -26,44 +26,44 @@ public enum LogLevel : Swift.String {
     get
   }
 }
-public protocol DebugLoggerProtocol {
+public protocol DebugLoggerProtocol : AnyObject {
   func debug(_ message: Swift.String)
   func info(_ message: Swift.String)
   func error(_ message: Swift.String)
 }
-public protocol RtcDataProvider {
+public protocol RtcDataProvider : AnyObject {
   func getStats(callback: @escaping (WatchRTC_SDK.RTCStatsReport) -> Swift.Void)
 }
-public class WatchRTCConfig {
+final public class WatchRTCConfig {
   public init(rtcApiKey: Swift.String, rtcRoomId: Swift.String, keys: [Swift.String : [Swift.String]]?, proxyUrl: Swift.String? = nil)
   @objc deinit
 }
 public struct WatchRTCSessionDescription {
   public init(type: Swift.String, sdp: Swift.String)
 }
-public class WatchRTC {
+final public class WatchRTC {
   public init(config: WatchRTC_SDK.WatchRTCConfig? = nil, dataProvider: WatchRTC_SDK.RtcDataProvider)
-  public func connect(config: WatchRTC_SDK.WatchRTCConfig? = nil) throws
-  public func addKeys(keys: [Swift.String : [Swift.String]])
-  public func setConfig(config: WatchRTC_SDK.WatchRTCConfig)
-  public func setLogger(debugLogger: WatchRTC_SDK.DebugLoggerProtocol?)
-  public func disconnect()
-  public func log(logLevel: WatchRTC_SDK.LogLevel, text: Swift.String)
-  public func addEvent(name: Swift.String, type: WatchRTC_SDK.EventType, parameters: Swift.Encodable? = nil)
-  public func setUserRating(rating: Swift.Int, ratingComment: Swift.String = "")
-  public func trace(eventName: Swift.String, data: Swift.Encodable?)
-  public func sendSetRemoteDescription(sdp: WatchRTC_SDK.WatchRTCSessionDescription)
-  public func sendSetLocalDescription(sdp: WatchRTC_SDK.WatchRTCSessionDescription)
-  public func sendSignalingStateMessage(state: Swift.String)
-  public func sendOnConnectionStateChange(state: Swift.String)
-  public func sendOnIceConnectionStateChange(state: Swift.String)
-  public func sendOnIceGatheringStateChange(state: Swift.String)
+  final public func connect(config: WatchRTC_SDK.WatchRTCConfig? = nil) throws
+  final public func addKeys(keys: [Swift.String : [Swift.String]])
+  final public func setConfig(config: WatchRTC_SDK.WatchRTCConfig)
+  final public func setLogger(debugLogger: WatchRTC_SDK.DebugLoggerProtocol?)
+  final public func disconnect()
+  final public func log(logLevel: WatchRTC_SDK.LogLevel, text: Swift.String)
+  final public func addEvent(name: Swift.String, type: WatchRTC_SDK.EventType, parameters: Swift.Encodable? = nil)
+  final public func setUserRating(rating: Swift.Int, ratingComment: Swift.String = "")
+  final public func trace(eventName: Swift.String, data: Swift.Encodable?)
+  final public func sendSetRemoteDescription(sdp: WatchRTC_SDK.WatchRTCSessionDescription)
+  final public func sendSetLocalDescription(sdp: WatchRTC_SDK.WatchRTCSessionDescription)
+  final public func sendSignalingStateMessage(state: Swift.String)
+  final public func sendOnConnectionStateChange(state: Swift.String)
+  final public func sendOnIceConnectionStateChange(state: Swift.String)
+  final public func sendOnIceGatheringStateChange(state: Swift.String)
   @objc deinit
 }
 public struct RTCStat {
   public init(timestamp: Swift.Int64, properties: [Swift.String : Any])
 }
-public class RTCStatsReport {
+final public class RTCStatsReport {
   public init(report: [Swift.String : WatchRTC_SDK.RTCStat], timestamp: Swift.Int64)
   @objc deinit
 }
