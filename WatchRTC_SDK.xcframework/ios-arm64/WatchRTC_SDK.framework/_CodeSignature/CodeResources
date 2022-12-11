@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nuhFs2EBbVnvV3g0CE0PbQTrPJs=
+		+XVvEzduWdRlI/TGn/5xMxFZ41E=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kyesPBQW22jvATk776IDZQDWgCo=
+		nTn+YAmOfEm15/+o6Ok8BZNr81Y=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GfE1aWUEVdS9t2x4JS6PV5J38h0=
+		m1pRmgztve4nV0dsRnCk2tW3X/Q=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		sj0PbuFgy06vraiOFwZxYIwDErQ=
+		7Udz0Mbvc7Bn2ZpC907Tz8FQvJk=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GfE1aWUEVdS9t2x4JS6PV5J38h0=
+		m1pRmgztve4nV0dsRnCk2tW3X/Q=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xdonbwUzDW7310xAwLFKnIiU+Js=
+		0DpNFWplStR4lmoPwpxlMAU0zZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1knlUXHO4diMmiQpt2GBtPplL+3uCOaaBRvIpszNfNU=
+			EZ3YrWGBskt4veZsoU2vh86rz7ZoSH8hpKNgmdh5sDQ=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvuNZbyD4YMEBcGHRLkKlHdHZz2E+5YjLQxN9CBSVyI=
+			gBI24OobUYbq7cH47eWyqWgVL5/MvFxZx4YEYarUPTw=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vgw4f2L/pfe0F0oEcqXRp1NRjoplxJb2CZkothpO5dE=
+			GcuWOckLSpC1KtfYox9BlzpQTTTZchTtnb+lQ3oLwaU=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvuNZbyD4YMEBcGHRLkKlHdHZz2E+5YjLQxN9CBSVyI=
+			gBI24OobUYbq7cH47eWyqWgVL5/MvFxZx4YEYarUPTw=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			exPco39fBO/cY+YDib6uPPKtuicnmJddLkcv4HiPh3k=
+			rMPBZVSlLRqHLFLajbnuFuPjozNf87noNSE0xLEj5sM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -830,13 +830,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(rtcApiKey:rtcRoomId:keys:proxyUrl:)",
+            "printedName": "init(rtcApiKey:rtcRoomId:rtcPeerId:keys:proxyUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "WatchRTCConfig",
                 "printedName": "WatchRTC_SDK.WatchRTCConfig",
                 "usr": "s:12WatchRTC_SDK0A9RTCConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -903,8 +909,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId4keys8proxyUrlACSS_SSSDySSSaySSGGSgSSSgtcfc",
-            "mangledName": "$s12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId4keys8proxyUrlACSS_SSSDySSSaySSGGSgSSSgtcfc",
+            "usr": "s:12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId0e4PeerI04keys8proxyUrlACSS_S2SSDySSSaySSGGSgSSSgtcfc",
+            "mangledName": "$s12WatchRTC_SDK0A9RTCConfigC9rtcApiKey0E6RoomId0e4PeerI04keys8proxyUrlACSS_S2SSDySSSaySSGGSgSSSgtcfc",
             "moduleName": "WatchRTC_SDK",
             "declAttributes": [
               "AccessControl"
@@ -1819,7 +1825,7 @@
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
@@ -1859,7 +1865,7 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
       "kind": "StringLiteral",
-      "offset": 5485,
+      "offset": 5496,
       "length": 2,
       "value": "\"\""
     },

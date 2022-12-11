@@ -35,7 +35,7 @@ public protocol RtcDataProvider : AnyObject {
   func getStats(callback: @escaping (WatchRTC_SDK.RTCStatsReport) -> Swift.Void)
 }
 final public class WatchRTCConfig {
-  public init(rtcApiKey: Swift.String, rtcRoomId: Swift.String, keys: [Swift.String : [Swift.String]]?, proxyUrl: Swift.String? = nil)
+  public init(rtcApiKey: Swift.String, rtcRoomId: Swift.String, rtcPeerId: Swift.String, keys: [Swift.String : [Swift.String]]?, proxyUrl: Swift.String? = nil)
   @objc deinit
 }
 public struct WatchRTCSessionDescription {

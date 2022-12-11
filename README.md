@@ -53,11 +53,13 @@ extension WebRTCClient: RtcDataProvider {
     }
 }
 ```
-### Initialize `WatchRTCConfig` with your API Key and room id
+### Initialize `WatchRTCConfig` with your API Key, room id and peer id
 ```swift
 let config = WatchRTCConfig(
-    "<your_api_key>",
-    "room_id"
+    rtcApiKey: "<your_api_key>",
+    rtcRoomId: "room_id",
+    rtcPeerId: "peer_id",
+    keys: "optional keys dictionary"
 )
 ```
 ### Create `WatchRTC` object
