@@ -38,7 +38,15 @@ In order to update the SDK to the newest version, in Terminal, run:
 pod update WatchRTC_SDK
 ```
 
-
+### Manual
+1. Download the latest version of [`WatchRTC_SDK.xcframework`](https://github.com/testRTC/watchRTCSDK-iOS/tree/master/WatchRTC_SDK.xcframework). It can be done either by downloading a zip archive from the [tags](https://github.com/testRTC/watchRTCSDK-iOS/tags) page or by cloning this repository with a git client.
+2. Open your Xcode project and click on project's name in "Project Navigator".
+3. Click on your app target to open your target's "General" settings tab:\
+    <img src="Documentation/images/image4.png" width="400">
+4. Scroll down to the "Frameworks, Libraries, and Embedded Content" section.
+5. Drag and drop `WatchRTC_SDK.xcframework` onto the "Frameworks, Libraries, and Embedded Content" section.
+7. Ensure that "Embed & Sign" is selected:\
+    <img src="Documentation/images/image5.png" width="500">
 
 ## Usage
 ### Import the framework
@@ -78,7 +86,7 @@ watchRTC.connect()
 ```
 
 ## Detailed API documentation
-For the detailed API documentation [WatchRTC_SDK.doccarchive](Documentation/API&#32;Documentation/WatchRTC_SDK.doccarchive) (Can be opened with XCode)
+For the detailed API documentation [WatchRTC_SDK.doccarchive](Documentation/API&#32;Documentation/WatchRTC_SDK.doccarchive) (Can be opened with Xcode)
 
 ## Sample apps
 For more details on how to use the SDK, see the 
