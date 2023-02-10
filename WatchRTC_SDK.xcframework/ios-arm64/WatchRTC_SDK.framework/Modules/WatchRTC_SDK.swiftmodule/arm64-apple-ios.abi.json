@@ -36,45 +36,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK"
-      },
-      {
-        "kind": "Import",
-        "name": "os.log",
-        "printedName": "os.log",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "WatchRTC_SDK",
         "declAttributes": [
@@ -275,7 +238,8 @@
         "mangledName": "$s12WatchRTC_SDK9EventTypeO",
         "moduleName": "WatchRTC_SDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -315,16 +279,6 @@
             "usr": "s:SY",
             "mangledName": "$sSY"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -595,7 +549,8 @@
         "mangledName": "$s12WatchRTC_SDK8LogLevelO",
         "moduleName": "WatchRTC_SDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -745,16 +700,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "RtcDataProvider",
         "printedName": "RtcDataProvider",
@@ -809,16 +754,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -939,16 +875,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "WatchRTCSessionDescription",
         "printedName": "WatchRTCSessionDescription",
@@ -992,16 +918,7 @@
         "mangledName": "$s12WatchRTC_SDK0A21RTCSessionDescriptionV",
         "moduleName": "WatchRTC_SDK",
         "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -1010,7 +927,10 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "WatchRTC_SDK"
+        "moduleName": "WatchRTC_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1585,13 +1505,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Network",
+        "printedName": "Network",
         "declKind": "Import",
-        "moduleName": "WatchRTC_SDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "WatchRTC_SDK"
       },
       {
         "kind": "Import",
@@ -1732,56 +1649,56 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/scheduler\/GetStatsScheduler.swift",
       "kind": "BooleanLiteral",
-      "offset": 313,
+      "offset": 301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/scheduler\/GetStatsScheduler.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 343,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 572,
       "length": 46,
       "value": "\"Buffered messages sent. Succeed - \""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 698,
       "length": 29,
       "value": "\"Send buffer error: \""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 806,
+      "offset": 786,
       "length": 64,
       "value": "\"Send buffer error: \""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/websocket\/WebSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 849,
       "length": 2,
       "value": "\"\""
     },
@@ -1816,23 +1733,23 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
       "kind": "IntegerLiteral",
-      "offset": 204,
+      "offset": 200,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
       "kind": "IntegerLiteral",
-      "offset": 236,
+      "offset": 232,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/Version.swift",
       "kind": "IntegerLiteral",
-      "offset": 268,
+      "offset": 264,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/compression\/LZString.swift",
@@ -1858,154 +1775,91 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
       "kind": "BooleanLiteral",
-      "offset": 436,
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 534,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/sdk\/WatchRTC.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 6640,
       "length": 2,
       "value": "\"\""
     },
     {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 27,
+      "value": "\"connectivityStatusChanged\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 28,
+      "value": "\"NetworkConnectivityMonitor\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/util\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 471,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 130,
       "length": 8,
       "value": "\"apiKey\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 201,
+      "offset": 178,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 264,
-      "length": 10,
-      "value": "\"getstats\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 321,
-      "length": 10,
-      "value": "\"watchrtc\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 5,
-      "value": "\"log\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 12,
-      "value": "\"userRating\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 8,
-      "value": "\"create\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 536,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 24,
-      "value": "\"onsignalingstatechange\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 28,
-      "value": "\"oniceconnectionstatechange\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 27,
-      "value": "\"onicegatheringstatechange\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 940,
-      "length": 21,
-      "value": "\"setLocalDescription\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1021,
-      "length": 22,
-      "value": "\"setRemoteDescription\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1107,
-      "length": 25,
-      "value": "\"onconnectionstatechange\""
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1173,
+      "offset": 230,
       "length": 11,
       "value": "\"projectId\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 283,
       "length": 13,
       "value": "\"projectName\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 334,
       "length": 10,
       "value": "\"interval\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 387,
       "length": 14,
       "value": "\"sendInterval\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/watchRTCSDK-iOS-code\/WatchRTC_SDK\/WatchRTC_SDK\/network\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
+      "offset": 435,
       "length": 6,
       "value": "\"PC_0\""
     }
