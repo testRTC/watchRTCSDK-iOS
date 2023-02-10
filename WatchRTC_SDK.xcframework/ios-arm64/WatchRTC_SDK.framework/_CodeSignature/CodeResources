@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+XVvEzduWdRlI/TGn/5xMxFZ41E=
+		oZwa134F/qDXpPK4cP63TACyUYs=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nTn+YAmOfEm15/+o6Ok8BZNr81Y=
+		L4Qhd5BJgx6hVwbda2thOdfPqYk=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		m1pRmgztve4nV0dsRnCk2tW3X/Q=
+		QRmAiwkYKXgFr5oYawjmZyNKuH0=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		m1pRmgztve4nV0dsRnCk2tW3X/Q=
+		QRmAiwkYKXgFr5oYawjmZyNKuH0=
 		</data>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0DpNFWplStR4lmoPwpxlMAU0zZE=
+		NdMSxzySI+rIwAtBNH0/F/BYTAE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EZ3YrWGBskt4veZsoU2vh86rz7ZoSH8hpKNgmdh5sDQ=
+			UdKB5db96mWsy8fFFqb8j9zmeO6T6rftl4FY2lYMhT0=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBI24OobUYbq7cH47eWyqWgVL5/MvFxZx4YEYarUPTw=
+			0aHQ48sExcnEc4exAsxGVU70eOdzQcbdD5zXjb68/zY=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBI24OobUYbq7cH47eWyqWgVL5/MvFxZx4YEYarUPTw=
+			0aHQ48sExcnEc4exAsxGVU70eOdzQcbdD5zXjb68/zY=
 			</data>
 		</dict>
 		<key>Modules/WatchRTC_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rMPBZVSlLRqHLFLajbnuFuPjozNf87noNSE0xLEj5sM=
+			7HTv3/QBLwJ08z+tHNdp/aGhwDOojpteCZRSH9mG9Yk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
