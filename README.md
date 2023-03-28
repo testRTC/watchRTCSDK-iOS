@@ -91,4 +91,5 @@ For the detailed API documentation [WatchRTC_SDK.doccarchive](Documentation/API&
 ## Sample apps
 For more details on how to use the SDK, see the 
 * [WebRTC Sample app](https://github.com/testRTC/watchRTCSDK-iOS-SampleApp)
+* [Twilio Sample app](https://github.com/testRTC/watchRTCSDK-iOS-TwilioSampleApp)
 * [Vonage Sample app](https://github.com/testRTC/watchRTCSDK-iOS-VonageSampleApp)
