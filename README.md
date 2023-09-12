@@ -50,18 +50,23 @@ pod update WatchRTC_SDK
 
 ## Usage
 ### Import the framework
+The below code should be added to the top of a source file of your application, where you would like to use the SDK.
+
 ```swift
 import WatchRTC_SDK
 ```
 ### Implement the `RtcDataProvider` protocol
+In order to provide statistics data to WatchRTC, your application should implement the `RtcDataProvider` protocol. The protocol should be implemented somewhere in your application where you have access to the WebRTC's `peerConnection` object.
 ```swift
 extension WebRTCClient: RtcDataProvider {
     func getStats(callback: @escaping (RTCStatsReport) -> Void) {
-        // get stats report and call callback(stats)
+        // get stats report from peerConnection (or another source if you are not using WebRTC directly)
+        // and call callback(stats)
     }
 }
 ```
 ### Initialize `WatchRTCConfig` with your API Key, room id and peer id
+The `WatchRTCConfig` object must be initialized with your [API KEY](https://testrtc.com/docs/create-a-watchrtc-api-key/), [ROOM ID](https://testrtc.com/docs/rooms-and-peers-in-watchrtc/), and [PEER ID](https://testrtc.com/docs/rooms-and-peers-in-watchrtc/). The rest is optional.
 ```swift
 let config = WatchRTCConfig(
     rtcApiKey: "<your_api_key>",
@@ -75,14 +80,29 @@ let config = WatchRTCConfig(
 // Optionally - pass config to the constructor
 let watchRTC = WatchRTC(rtcDataProvider)
 ```
+You must keep the `watchRTC` object in memory as long as you want to be connected to the testRTC's servers.
+
 ### If the config was not passed to the constructor, set it
 ```swift
 watchRTC.setConfig(config)
 ```
 ### Connect to testRTC's servers
 ```swift
-// Call connect() when a peer connection is active
-watchRTC.connect()
+// Call connect() when a peer connection is active.
+// The method can throw, so be sure to enclose it in do-try-catch statement.
+do {
+    try watchRtc?.connect()
+} catch {
+    debugPrint(error)
+}
+```
+From this point, you can see your session on the WatchRTC dashboard.
+
+### Disconnect from testRTC's servers
+In order to close your connection to testRTC's servers, you need to call `disconnect()`
+```swift
+// Should be called once the WebRTC's peerConnection is closed.
+watchRtc?.disconnect()
 ```
 
 ## Detailed API documentation
@@ -90,6 +110,6 @@ For the detailed API documentation [WatchRTC_SDK.doccarchive](Documentation/API&
 
 ## Sample apps
 For more details on how to use the SDK, see the 
-* [WebRTC Sample app](https://github.com/testRTC/watchRTCSDK-iOS-SampleApp)
-* [Twilio Sample app](https://github.com/testRTC/watchRTCSDK-iOS-TwilioSampleApp)
-* [Vonage Sample app](https://github.com/testRTC/watchRTCSDK-iOS-VonageSampleApp)
+* [WebRTC Sample app](https://github.com/testRTC/watchRTCSDK-iOS-SampleApp) - shows how to integrate WatchRTC SDK into applications working with WebRTC directly.
+* [Twilio Sample app](https://github.com/testRTC/watchRTCSDK-iOS-TwilioSampleApp) - shows how to integrate WatchRTC SDK into applications working with Twilio SDK.
+* [Vonage Sample app](https://github.com/testRTC/watchRTCSDK-iOS-VonageSampleApp) - shows how to integrate WatchRTC SDK into applications working with Vonage SDK (formerly TokBox OpenTok).
